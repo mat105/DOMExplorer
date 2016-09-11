@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="prop.xsl"?>
+<propiedades>
+    <!-- propiedades en venta, ojo que está en dólares -->
+    <venta currency="US">
+        <property id="1">
+            <type>House</type>
+            <price>105000</price>
+            <address>
+                <streetNo>990</streetNo>
+                <street>Viamonte</street>
+                <suburb>Balvanera</suburb>
+                <state>CABA</state>
+                <zipcode>200</zipcode>
+            </address>
+            <numberOfBedrooms>3</numberOfBedrooms>
+            <numberOfBathrooms>1</numberOfBathrooms>
+            <garage>1</garage>
+        </property>
+        <property id="2">
+            <type>Studio</type>
+            <price>80000</price>
+            <address>
+                <streetNo>1</streetNo>
+                <street>San Martin</street>
+                <suburb>San Nicolas</suburb>
+                <state>JY</state>
+                <zipcode>7128</zipcode>
+            </address>
+            <numberOfBedrooms>1</numberOfBedrooms>
+            <numberOfBathrooms>1</numberOfBathrooms>
+            <garage>0</garage>
+        </property>
+    </venta>
+    <!-- alquiler en pesos -->
+    <alquiler currency="ARS">
+        <property ref="2" />
+        <property id="3">
+            <type>Studio</type>
+            <price></price>
+            <currency>ARS</currency>
+            <address>
+                <streetNo>1</streetNo>
+                <street>San Martin</street>
+                <suburb>San Nicolas</suburb>
+                <state>JY</state>
+                <zipcode>7128</zipcode>
+            </address>
+            <numberOfBedrooms>1</numberOfBedrooms>
+            <numberOfBathrooms>1</numberOfBathrooms>
+            <garage>0</garage>
+        </property>
+
+    </alquiler>
+</propiedades>
