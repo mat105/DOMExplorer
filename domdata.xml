@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<rentalProperties>
+	<property rent="420" type="House">
+		<id>1</id>
+		<address zipCode="200">
+			<street>Viamonte</street>
+			<streetNo>990</streetNo>
+			<state>CABA</state>
+		</address>
+		<numberOfBedrooms>3</numberOfBedrooms>
+		<numberofBathrooms>1</numberofBathrooms>
+		<garage>1</garage>
+	</property>
+	<property rent="100" type="Studio">
+		<id>2</id>
+		<address zipCode="7128">
+			<street>San Martin</street>
+			<streetNo>1</streetNo>
+			<state>JY</state>
+		</address>
+		<numberOfBedrooms>1</numberOfBedrooms>
+		<numberofBathrooms>1</numberofBathrooms>
+		<garage>0</garage>
+	</property>
+</rentalProperties>

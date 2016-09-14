@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+
+<rentalProperties>
+    <property id="1">
+        <type>House</type>
+        <price>420</price>
+        <address>
+            <streetNo>990</streetNo>
+            <street>Viamonte</street>
+            <suburb>Balvanera</suburb>
+            <state>CABA</state>
+            <zipcode>200</zipcode>
+        </address>
+        <numberOfBedrooms>3</numberOfBedrooms>
+        <numberOfBathrooms>1</numberOfBathrooms>
+        <garage>1</garage>
+    </property>
+    <property id="2">
+        <type>Studio</type>
+        <price>100</price>
+        <address>
+            <streetNo>1</streetNo>
+            <street>San Martin</street>
+            <suburb>San Nicolas</suburb>
+            <state>JY</state>
+            <zipcode>7128</zipcode>
+        </address>
+        <numberOfBedrooms>1</numberOfBedrooms>
+        <numberOfBathrooms>1</numberOfBathrooms>
+        <garage>0</garage>
+    </property>
+</rentalProperties>
